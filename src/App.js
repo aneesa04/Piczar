@@ -42,7 +42,7 @@ function App() {
   
 
   return (
-    <div>
+    <div className="">
     <LoadingBar
         color='#000'
         progress={progress}
@@ -53,6 +53,7 @@ function App() {
       {data.map((item) => <ImageSlider data={item} key={item.id} />)}
     </div>
     <Pagination data={data} nextPage={nextPage} prevPage={prevPage} page={page} totalPages={totalPages}/>
+    <span className="w-full text-center block"><a className=" text-[#e2e2e2] w-fit text-xs" href="https://www.flaticon.com/free-icons/image-analysis" title="image analysis icons">favicon created by Dewi Sari - Flaticon</a></span> 
   </div>
   );
 }

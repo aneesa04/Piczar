@@ -2,7 +2,7 @@ import React from 'react'
 
 function ImageSlider({data}) {
   const array = data.tags.split(",");
-  console.log(array)
+  //<a href="https://www.flaticon.com/free-icons/image-analysis" title="image analysis icons">Image analysis icons created by Dewi Sari - Flaticon</a>
   return (
     <div className="bg-white w-48 py-3 shadow-lg space-y-1 px-2 rounded-md mb-4 m-2">
       <span>
